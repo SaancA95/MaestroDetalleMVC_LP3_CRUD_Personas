@@ -1,0 +1,63 @@
+﻿@model MaestroDetalleMVC.Models.ViewModels.PersonaViewModel
+@{
+    ViewBag.Title = "Persona Detalle";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("PersonaDetalle", "MaestroDetalle", FormMethod.Post))
+{
+    <hr />
+    <div class="row">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Cedula)
+            @Html.EditorFor(m => m.Cedula)
+            @Html.ValidationMessageFor(m => m.Cedula)
+            <br />
+            @Html.LabelFor(m => m.Nombres)
+            @Html.EditorFor(m => m.Nombres)
+            @Html.ValidationMessageFor(m => m.Nombres)
+            <br />
+            @Html.LabelFor(m => m.Apellidos)
+            @Html.EditorFor(m => m.Apellidos)
+            @Html.ValidationMessageFor(m => m.Apellidos)
+            <br />
+            @Html.LabelFor(m => m.Direccion)
+            @Html.EditorFor(m => m.Direccion)
+            @Html.ValidationMessageFor(m => m.Direccion)
+            <br />
+        </div>
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Guardar" />
+        </div>
+    </div>
+}
+
+<h3>Lista de Personas</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cédula</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Dirección</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var persona in Model.personas)
+        {
+            <tr>
+                <td>@persona.Cedula</td>
+                <td>@persona.Nombres</td>
+                <td>@persona.Apellidos</td>
+                <td>@persona.Direccion</td>
+                <td>
+                    @Html.ActionLink("Editar/Ver", "Edit", new { id = persona.Cedula }) |
+                    @Html.ActionLink("Eliminar", "Delete", new { id = persona.Cedula }, new { @onclick = "return confirm('¿Está seguro que desea eliminar esta persona?');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

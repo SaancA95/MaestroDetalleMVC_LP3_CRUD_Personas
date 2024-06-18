@@ -1,0 +1,39 @@
+﻿@model MaestroDetalleMVC.Models.ViewModels.PersonaViewModel
+@{
+    ViewBag.Title = "Editar / Ver Persona";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("Edit", "MaestroDetalle", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Cedula) <!-- Asegúrate de tener esto si es necesario -->
+    <div class="row">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Nombres)
+            @Html.EditorFor(m => m.Nombres)
+            @Html.ValidationMessageFor(m => m.Nombres)
+            <br />
+            @Html.LabelFor(m => m.Apellidos)
+            @Html.EditorFor(m => m.Apellidos)
+            @Html.ValidationMessageFor(m => m.Apellidos)
+            <br />
+            @Html.LabelFor(m => m.Direccion)
+            @Html.EditorFor(m => m.Direccion)
+            @Html.ValidationMessageFor(m => m.Direccion)
+            <br />
+        </div>
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Guardar" class="btn btn-primary" />
+        </div>
+    </div>
+}
+@using (Html.BeginForm("Delete", "MaestroDetalle", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Cedula)
+    <div class="form-group">
+        <input type="submit" value="Eliminar" class="btn btn-danger" onclick="return confirm('¿Está seguro que desea eliminar esta persona?');" />
+    </div>
+}
+

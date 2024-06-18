@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB043BC-75BC-4915-878B-A2031F1587EA}|MaestroDetalleMVC\\MaestroDetalleMVC.csproj|c:\\users\\mishel\\source\\repos\\maestrodetallemvc\\maestrodetallemvc\\controllers\\maestrodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB043BC-75BC-4915-878B-A2031F1587EA}|MaestroDetalleMVC\\MaestroDetalleMVC.csproj|solutionrelative:maestrodetallemvc\\controllers\\maestrodetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB043BC-75BC-4915-878B-A2031F1587EA}|MaestroDetalleMVC\\MaestroDetalleMVC.csproj|C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\maestrodetallemvc\\models\\viewmodels\\ventaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB043BC-75BC-4915-878B-A2031F1587EA}|MaestroDetalleMVC\\MaestroDetalleMVC.csproj|solutionrelative:maestrodetallemvc\\models\\viewmodels\\ventaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB043BC-75BC-4915-878B-A2031F1587EA}|MaestroDetalleMVC\\MaestroDetalleMVC.csproj|C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\maestrodetallemvc\\views\\maestrodetalle\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBB043BC-75BC-4915-878B-A2031F1587EA}|MaestroDetalleMVC\\MaestroDetalleMVC.csproj|solutionrelative:maestrodetallemvc\\views\\maestrodetalle\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\MaestroDetalleMVC\\Models\\ViewModels\\VentaViewModel.cs",
+              "RelativeDocumentMoniker": "MaestroDetalleMVC\\Models\\ViewModels\\VentaViewModel.cs",
+              "ToolTip": "C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\MaestroDetalleMVC\\Models\\ViewModels\\VentaViewModel.cs",
+              "RelativeToolTip": "MaestroDetalleMVC\\Models\\ViewModels\\VentaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T15:33:43.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\MaestroDetalleMVC\\Views\\MaestroDetalle\\Add.cshtml",
+              "RelativeDocumentMoniker": "MaestroDetalleMVC\\Views\\MaestroDetalle\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\MaestroDetalleMVC\\Views\\MaestroDetalle\\Add.cshtml",
+              "RelativeToolTip": "MaestroDetalleMVC\\Views\\MaestroDetalle\\Add.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAYwGoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T15:29:14.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaestroDetalleController.cs",
+              "DocumentMoniker": "C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\MaestroDetalleMVC\\Controllers\\MaestroDetalleController.cs",
+              "RelativeDocumentMoniker": "MaestroDetalleMVC\\Controllers\\MaestroDetalleController.cs",
+              "ToolTip": "C:\\Users\\Mishel\\source\\repos\\MaestroDetalleMVC\\MaestroDetalleMVC\\Controllers\\MaestroDetalleController.cs",
+              "RelativeToolTip": "MaestroDetalleMVC\\Controllers\\MaestroDetalleController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwDQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T15:28:33.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
